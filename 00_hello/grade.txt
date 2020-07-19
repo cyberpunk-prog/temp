@@ -1,0 +1,7 @@
+Grading at Sun Jul 19 09:34:06 UTC 2020
+I expected to find a file called 'hello.txt' but it did not exist
+(or was not a regular file)
+Here are the files that I can find:
+README
+
+Overall Grade: FAILED
