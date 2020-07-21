@@ -1,6 +1,6 @@
 
 int printTriangle(int size) {
-  int startcount=0;
+  int startCount=0;
   int i;
   int j;
   for (int i=0;i<size;i++)
@@ -8,12 +8,12 @@ int printTriangle(int size) {
       for(int j=0;j<=i;j++)
 	{
 	  printf("*");
-	  startcount++;
+	  startCount++;
 	}
       printf("\n");
       
     }
-  return startcount;
+  return startCount;
 }  
 
   //start with starCount being 0
