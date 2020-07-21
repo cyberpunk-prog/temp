@@ -1,0 +1,13 @@
+Grading at Tue Jul 21 17:00:27 UTC 2020
+Checking code2.c for legal syntax
+temp.c: In function ‘printTriangle’:
+temp.c:7:7: error: unused variable ‘j’ [-Werror=unused-variable]
+   int j;
+       ^
+temp.c:6:7: error: unused variable ‘i’ [-Werror=unused-variable]
+   int i;
+       ^
+cc1: all warnings being treated as errors
+The code did not have legal syntax!
+
+Overall Grade: F
