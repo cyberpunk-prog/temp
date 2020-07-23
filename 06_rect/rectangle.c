@@ -20,20 +20,20 @@ struct rect {
   int width;
   int height;
 };
-typedef struct rect rectangle;
+  typedef struct rect rectangle;
 //Declare your rectangle structure here!
 
 
 rectangle canonicalize(rectangle r) {
   //WRITE THIS FUNCTION
   if(r.width < 0){
-    r.x = r.x +r.width;
-    r.width=0-r.width;
+    r.x = r.x+r.width;
+    r.width = 0-r.width;
   }
     if(r.height < 0){
 
       r.y = r.y + r.height;
-      r.height=0-r.height;
+      r.height= 0-r.height;
     }
 
 
@@ -44,8 +44,8 @@ rectangle canonicalize(rectangle r) {
 rectangle intersection(rectangle r1, rectangle r2) {
 //WRITE THIS FUNCTION
   rectangle ans;
-  r1=canonicalize(r1);
-  r2=canonicalize(r2);
+  r1 = canonicalize(r1);
+  r2 = canonicalize(r2);
   ans.x=max(r1.x,r2.x);
   ans.y=max(r1.y,r2.y);
   int tem;
@@ -68,8 +68,9 @@ rectangle intersection(rectangle r1, rectangle r2) {
   if(minheight < 0)
     {
       ans.height = minheight + ans.y;
-      ans.width = minwidth-ans.x;
     }
+      ans.width = minwidth-ans.x;
+    
   if(minwidth < 0)
     {
       ans.width = minwidth + ans.x;
