@@ -7,7 +7,7 @@ struct _retire_info{
 };
 typedef struct _retire_info retire_info;
 
-double cal(double acc , retire_info st)
+double cal(double acc ,retire_info st)
 {
   return (acc*st.rate_of_return + st.contribution + acc);
 }
