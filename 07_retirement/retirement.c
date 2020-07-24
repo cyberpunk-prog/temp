@@ -15,11 +15,11 @@ void retirement ( int startAge , double initial, retire_info working, retire_inf
   double temp;
   temp = initial;
   for(int i=0;i<working.months;i++,startAge++){
-    printf("Age %3d month %2d you have $ %.21f\n",startAge/12 , startAge%12 , temp);
+    printf("Age %3d month %2d you have $ %.2f\n",startAge/12 , startAge%12 , temp);
     temp = cal(temp,working);
   }
   for(int i=0;i<retired.months;i++,startAge++){
-    printf("Age %3d month %2d you have $ %.21f\n",startAge/12, startAge%12, temp);
+    printf("Age %3d month %2d you have $ %.2f\n",startAge/12, startAge%12, temp);
     temp = cal(temp,retired);
   }
 }
