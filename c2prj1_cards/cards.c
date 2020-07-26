@@ -51,7 +51,7 @@ char suit_letter(card_t c) {
   switch(c.suit){
   case SPADES :{x='s' ; break;}
   case HEARTS : { x='h' ; break;}
-  case DIAMONDS :{x='c' ; break;}
+  case DIAMONDS :{x='d' ; break;}
   case CLUBS : {x='c' ; break;}
   default :{x='N'; break;}
   }
