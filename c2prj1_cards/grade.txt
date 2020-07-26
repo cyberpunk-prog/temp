@@ -1,6 +1,21 @@
-Grading at Sun Jul 26 05:53:59 UTC 2020
+Grading at Sun Jul 26 06:08:15 UTC 2020
 Compiling cards.c
 Testing card_from_letters
+Passed
+Testing value_letter and suit_letter
+For Kd, you gave value = K, suit = c
+For Ad, you gave value = A, suit = c
+For 2d, you gave value = 2, suit = c
+For 3d, you gave value = 3, suit = c
+For 4d, you gave value = 4, suit = c
+For 5d, you gave value = 5, suit = c
+For 6d, you gave value = 6, suit = c
+For 7d, you gave value = 7, suit = c
+For 8d, you gave value = 8, suit = c
+For 9d, you gave value = 9, suit = c
+For 0d, you gave value = 0, suit = c
+For Jd, you gave value = J, suit = c
+For Qd, you gave value = Q, suit = c
 Failed
 
 Overall Grade: FAILED
