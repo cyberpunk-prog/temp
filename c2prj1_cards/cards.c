@@ -74,12 +74,15 @@ card_t card_from_letters(char value_let, char suit_let) {
   case '0' :{temp.value = 10; break;}
   case 'A' : {temp.value=14; break;}
   case 'Q' : {temp.value = 12; break ;}
-  case 'J' :{temp.value=value_let - '0'; break;}}
+  case 'J' : {temp.value = 11; break;}
+  default : {temp.value=value_let - '0';
+      break;}}
   switch(suit_let){
   case 's' : {temp.suit = SPADES ; break;}
   case 'h' : {temp.suit = HEARTS; break;}
   case 'd' : {temp.suit = DIAMONDS ; break;}
-  case 'c' :{temp.suit = NUM_SUITS; break; }}
+  case 'c' :{temp.suit = CLUBS ;break;}
+  default : {temp.suit = NUM_SUITS; break; }}
   assert_card_valid(temp);
   
   
