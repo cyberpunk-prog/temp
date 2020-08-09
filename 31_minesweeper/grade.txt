@@ -1,0 +1,8 @@
+Grading at Sun Aug  9 13:42:20 UTC 2020
+Attempting to compile minesweeper.c
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+The code did not compile!
+
+Overall Grade: F
