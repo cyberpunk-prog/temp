@@ -1,49 +1,26 @@
-Grading at Sat Aug  1 14:50:21 UTC 2020
-Compiling your code
-rm -f test poker cards.o my-test-main.o *~
-cc -ggdb3 -Wall -Werror -pedantic -std=gnu99   -c -o deck.o deck.c
-cc -ggdb3 -Wall -Werror -pedantic -std=gnu99   -c -o eval.o eval.c
-cc -ggdb3 -Wall -Werror -pedantic -std=gnu99   -c -o cards.o cards.c
-gcc -o test-eval -ggdb3 deck.o deck-c4.o eval-c4.o eval.o test-eval.o cards.o input.o future.o
-Testcase 1: Trying hands with nothing
- Checking the output 
-Your file matched the expected output
- - Testcase passed
-Testcase 2: Trying hands with pairs
- Checking the output 
-Your file matched the expected output
- - Testcase passed
-Testcase 3: Trying hands with 2 pairs
- Checking the output 
-Your file matched the expected output
- - Testcase passed
-Testcase 4: Trying hands with 3 of a kind
- Checking the output 
-Your file matched the expected output
- - Testcase passed
-Testcase 5: Trying hands with straights
- Checking the output 
-Your file matched the expected output
- - Testcase passed
-Testcase 6: Trying hands with flushes
- Checking the output 
-Your file matched the expected output
- - Testcase passed
-Testcase 7: Trying hands with full houses
- Checking the output 
-Your file matched the expected output
- - Testcase passed
-Testcase 8: Trying hands with 4 of a kind
- Checking the output 
-Your file matched the expected output
- - Testcase passed
-Testcase 9: Trying hands with straight flushes
- Checking the output 
-Your file matched the expected output
- - Testcase passed
-Testcase 10: Trying each type of hand ranking
- Checking the output 
-Your file matched the expected output
- - Testcase passed
+Grading at Mon Jul 20 05:36:45 UTC 2020
+Your test cases identified the problem with test-eval-0000
+Your test cases identified the problem with test-eval-0001
+Your test cases identified the problem with test-eval-0002
+Your test cases identified the problem with test-eval-0003
+Your test cases identified the problem with test-eval-0004
+Your test cases identified the problem with test-eval-0005
+Your test cases identified the problem with test-eval-0006
+Your test cases identified the problem with test-eval-0007
+Your test cases identified the problem with test-eval-0008
+Your test cases identified the problem with test-eval-0009
+Your test cases identified the problem with test-eval-0010
+Your test cases identified the problem with test-eval-0011
+Your test cases identified the problem with test-eval-0012
+Your test cases identified the problem with test-eval-0013
+Your test cases identified the problem with test-eval-0014
+Your test cases identified the problem with test-eval-0015
+Your test cases identified the problem with test-eval-0016
+Your test cases identified the problem with test-eval-0017
+Your test cases identified the problem with test-eval-0018
+Your test cases identified the problem with test-eval-0019
+Your test cases identified the problem with test-eval-0020
+Your test cases identified the problem with test-eval-0021
+Your test cases identified the problem with test-eval-0022
 
-Overall Grade: A
+Overall Grade: PASSED
